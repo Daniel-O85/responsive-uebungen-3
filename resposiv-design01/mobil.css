@@ -1,0 +1,60 @@
+@media screen and (max-width: 799px) {
+  body {
+    background-color: steelblue;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header img {
+    width: 100px;
+    border: inset 5px gray;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: solid black 1px;
+    padding: 10px;
+  }
+  nav img {
+    width: 150px;
+   
+    border: inset 5px gray;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .audi,
+  main .benz {
+    width: 500px;
+    margin: 25px;
+    justify-content: center;
+    text-align: center;
+    border-top: solid black 1px;
+  }
+  main img {
+    width: 300px;
+    justify-content: center;
+    border: inset 5px gray;
+    margin: 10px;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-top: solid black 1px;
+  }
+  footer div,
+  footer img {
+    padding: 20px;
+  }
+  footer img{
+    width: 300px;
+  }
+}
